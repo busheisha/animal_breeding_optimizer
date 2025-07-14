@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "animal_breeding_optimizer"
+version = "0.1.0"
+description = "Микро-библиотека для оптимизации разведения животных"
+readme = "README.md"
+authors = [
+    { name = "busheisha" }
+]
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+dependencies = [
+    "pandas",
+    "numpy",
+    "networkx",
+    "deap"
+]
+
+[project.urls]
+Homepage = "https://github.com/busheisha/animal_breeding_optimizer" 
